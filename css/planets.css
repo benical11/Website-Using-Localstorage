@@ -1,0 +1,161 @@
+html,
+      body {
+        height: 100%;
+		background: url(cssPhotos/bg3.jpg);
+      }
+      .wrapper {
+        height: 100%;
+        width: 100%;
+       
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+		
+		text-align: center;
+      }
+      .fixed {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+		background-size: cover;
+        height: 100%;
+        
+        
+        text-align: center;
+  
+		
+      }
+      .fixed h2 {
+		 position: absolute;
+		  margin: 350px 500px;
+		  background-color: #1e272e;
+		  
+		  color: white;
+		  padding: 40px;
+		  opacity: 0.7;
+		  font-size: 20px
+
+      }
+	  .fixed h2:hover {
+		  background: url(cssPhotos/bg3.jpg);
+		  color: white;
+		  opacity:1;
+		  outline:5px solid white;
+		}
+		
+		
+      .scroll {
+        
+        padding: 10px 70px;
+        color: #666666;
+		
+      }
+	  .scroll a{
+        
+		text-align: center;
+        padding: 1px 1 	px;
+		opacity:0.7;
+        color: white;
+		font-size: 30px;
+		
+      }
+	  .scroll a:hover{
+        
+		color:#eb4d4b;
+		
+      }
+      .one {
+        background-image: url("cssPhotos/mercury.jpg");
+		
+      }
+      .two {
+        background-image: url("cssPhotos/venus.jpg")
+      }
+      .three {
+        background-image: url("cssPhotos/earth.jpg")
+      }
+	  .four {
+        background-image: url("cssPhotos/mars.jpg");
+		
+      }
+      .five {
+        background-image: url("cssPhotos/jupiter.jpg")
+      }
+      .six {
+        background-image: url("cssPhotos/saturn.jpg")
+      }
+	  .seven {
+        background-image: url("cssPhotos/uranus.jpg");
+		
+      }
+      .eight {
+        background-image: url("cssPhotos/neptune.jpg")
+      }
+      .nine {
+        background-image: url("cssPhotos/pluto.jpg")
+      }
+	  
+	  .navbar {
+		  overflow: hidden;
+		 
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		  opacity:1;
+		}
+
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 30px;
+		  text-decoration: none;
+		  font-size: 17px;
+		  font-family: "Audiowide", sans-serif;
+		}
+
+		.navbar a:hover {
+		  
+		  color: #eb4d4b;
+		}
+		
+		.navbar .right{
+			
+			float:right;
+		
+		}
+		
+		.dropdown{
+			position: fixed;
+			display:inline-block;}
+			
+		.dropdown-content{
+			display: none;
+			color: white;
+			position: absolute;
+			text-align: center;
+			padding: 25px 30px;
+			text-decoration: none;
+			font-size: 17px;
+			font-family: "Audiowide", sans-serif;
+		}
+		
+		.navbar .dropdown:hover .dropdown-content{
+			display:block;
+		}
+		
+		.icon1{
+			background:url("cssPhotos/twitter2.png");
+			height:30px;
+			width:30px;
+			display:inline-block; 
+			background-size:30px;
+		}
+		.icon2{
+			background:url("cssPhotos/instagram2.png");
+			height:30px;
+			width:30px;
+			display:inline-block; 
+			background-size:30px;
+		}
+		

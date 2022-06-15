@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<title> Halley </title>
+</head>
+<body>
+	<div class="navbar">
+	  <a href="home.html">Home</a>
+	  <a href="planets.html">Planets</a>
+	  
+	  <div class="dropdown"> <a>Social Media</a>
+	  <div class="dropdown-content">
+		<a href="https://twitter.com/halleywebsite"><i class='icon1'></i>twitter</a>
+		<a href="https://www.instagram.com/halleywebsite/"><i class='icon2'></i>instagram</a>
+		
+	  </div>
+	  </div>
+	  
+	  <div class="right">
+	  <audio controls >
+			<source src="mp3/home.mp3" type="audio/mpeg">
+	  </audio>
+	  
+		<a href="#" id="logOut" onclick="logOutButtonFun()">Log out</a>
+		<a href="login.html" id="logIn" >Login</a>
+	  </div>
+	  
+	</div><br><br><br><br>
+	
+	<div class="main">
+	<h1>SOLAR SYSTEM: <br>NINE PLANETS(Gallery)<h1>
+	</div>
+
+<div class="supports"></div>
+
+<ul class="list img-list">
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(1)" src="photos/earth.png" />
+      </div>
+      <div class="li-text">
+        <h2 class="li-head">Earth</h2>
+      </div>
+    </a>
+	
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(2)" src="photos/jupiter.png"  />
+      </div>
+      <div class="li-text">
+       <h2 class="li-head">Jupiter</h2>
+        
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(3)" src="photos/mars.png"  />
+      </div>
+      <div class="li-text">
+        <h2 class="li-head">Mars</h2>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(4)" src="photos/mercury.png"  />
+      </div>
+      <div class="li-text">
+        <h2 class="li-head">Mercury</h2>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg"  onclick="showModal(5)" src="photos/neptune.png"  />
+      </div>
+      <div class="li-text">
+        <h2 class="li-head">Neptune</h2>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(6)" src="photos/saturn.png"  />
+      </div>
+      <div class="li-text">
+       <h2 class="li-head">Saturn</h2>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(7)" src="photos/uranus.png"  />
+      </div>
+      <div class="li-text">
+       <h2 class="li-head">Uranus</h2>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(8)" src="photos/venus.png"  />
+      </div>
+      <div class="li-text">
+        <h2 class="li-head"> Venus</h2>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a class="inner">
+      <div class="li-img">
+        <img class="myImg" onclick="showModal(9)" src="photos/pluto-1.png"  />
+      </div>
+      <div class="li-text">
+        <h2 class="li-head">Pluto</h2>
+      </div>
+    </a>
+  </li>
+</ul>
+
+	
+	
+<div id="myModal" class="modal">
+  <img class="modal-content" id="img01">	
+</div>
+	
+<script src = "javascript/home.js"></script>
+</body>
+</html>
